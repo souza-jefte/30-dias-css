@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+    h2 {
+      color: #ff4081;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+      text-align: justify;
+    }
+
+    /*Menu */
+    .icon-bar {
+      width: 6em;
+      background-color: #555;
+    }
+    .icon-bar a {
+      display: block;
+      padding: 16px;
+      text-align: center;
+      font-size: 2.1em;
+      color: white;
+      transition: all 1.5s ease;
+    }
+    .icon-bar a:hover {
+      background-color: #000;
+    }
+
+    .active {
+      background-color: #4caf50;
+    }
+  </style>
+  <body>
+    <h1>< 30 dias de CSS ></h1>
+    <h2>Dia 01</h2>
+
+    <p>
+      Primeiro desafio na qual me propus por 30 dias. Cada dia devo implementar
+      algum codigo com css. Segue exemplo com menu de barra vertical.
+    </p>
+    <p>
+      Exemplo extraido do site w3schol:
+      <a href="https://www.w3schools.com/howto/howto_css_icon_bar.asp">
+        link direto
+      </a>
+    </p>
+    <h3>Exemplo de menu com barra vertical css</h3>
+    <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-search"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a>
+    </div>
+  </body>
+</html>
